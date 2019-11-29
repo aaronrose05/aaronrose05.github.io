@@ -1,32 +1,31 @@
-
-doc {
+.doc {
   background: green;
   height: 960px;
   width: 480px;
 }
 
 .container {
-  body: purple;
   margin: 0;
 }
 
-  div {
-    color: red
+  .div {
+    color: red;
     width: 100px;
     height: 42px;
   }
 
-newsline {
+.newsline {
   font-size: 42px;
   font-style: bold;
   font-weight: 400;
 }
 
-wrapper {
+.wrapper {
   width: 60%;
   height: 100vh;
-  width: 22vh;
   background: grey;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .head {
@@ -42,7 +41,7 @@ wrapper {
   padding: 0;
 }
 
-second_container {
+.second_container {
   background: pink;
   height: 150px;
 }
@@ -54,7 +53,7 @@ second_container {
   flex-wrap: wrap;
 }
 
-textbox {
+.textbox {
   height: 100px;
   width: 350px;
   margin-bottom: 25px;

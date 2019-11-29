@@ -7,29 +7,104 @@
   /* 
     Place your fresh CSS styles here to help organize the page
   */
+
+.doc {
+  background: green;
+  height: 960px;
+  width: 480px;
+}
+
+.container {
+  margin: 0;
+}
+
+  .div {
+    color: red;
+    width: 100px;
+    height: 42px;
+  }
+
+.newsline {
+  font-size: 42px;
+  font-style: bold;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 60%;
+  height: 100vh;
+  background: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.head a,
+.head {
+  margin: 0;
+  padding: 0;
+}
+
+.second_container {
+  background: pink;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textbox {
+  height: 100px;
+  width: 350px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.green {
+  background: red;
+  cursor: pointer;
+}
+
+.second {
+  background: lightblue;
+}
+
   </style>
 </head>
 
 <body>
   <div class="wrapper">
     <div class="head" id="start">
-      make me a headline
+      <h1>Sample Header</h1>
+      <a href="">anchor tag to nowhere</a>
     </div>
-    <div class="second_container">
+    <div class="second_container container">
       <div class="interior">
-      hello
+        Hello
     </div>
     </div>
     <div class="container">
-      <div>
-        First
+      <div class="green textbox">
+        click me I'm great
       </div>
-      <div>
-        Second
+      <div class="green textbox">
+        
       </div>
       <div class="second textbox">
         <p>
-          Third
+          World #2
         </p>
       </div>
     </div>
